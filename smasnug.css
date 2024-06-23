@@ -1,5 +1,5 @@
 body{
-	color:orange;
+	color:#ffa500;
 	background-color:black;
     font-size: 30px;
 }
@@ -27,34 +27,36 @@ body{
     width:10px;
     cursor: pointer;
 }
+.ref{
+    background-color: black;
+    border: #000000;
+    color: #000000;
+    border-color: #000000;
+    animation-name: ref;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
 .x{
     background-color: black;
     border: 0px;
     color: black;
     cursor: pointer;
 }
+.game{
+    background-color: black;
+    border: 0px;
+    color: black;
+    cursor: pointer;
+    vertical-align: top;
+}
+.va{vertical-align: text-top;}
 .r{
     background-color: black;
     border: 0px;
     width: 0px;
     height: 0px;
     color: black;
-}
-.quiz{
-    background-color: black;
-    border: 2px black;
-    color: white;
-    font-size: 50px;
-    cursor: pointer;
-}
-.quiz:hover{
-    color: black;
-    background-color: #555555;
-}
-.qbod{
-	color:orange;
-	background-color:black;
-    font-size: 40px;
 }
 .rroll{transform: rotate(0.25deg);
     animation-name: rot;
@@ -69,19 +71,6 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-.loader{
-    border: 40px solid #0e1f3f;
-    border-radius: 50%;
-    border-top: 40px solid #184b6d;
-    border-left: 40px solid #164163;
-    border-bottom: 40px solid #112b4c;
-    width: 200px;
-    height: 200px;
-    animation-name: rot;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 .loader0{
     border: 40px solid #0e1f3f;
     border-radius: 50%;
@@ -93,9 +82,43 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.bigd{
+    width:auto;
+    height: 500px;
+    background-color: #000000;
+    border: 10px solid #aa6f00;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+
+}
+.smalld{
+    display: inline-block;
+    width:480px;
+    height: 480px;
+    background-color: #000000;
+    border: 10px solid #664200;
+    vertical-align: middle;
+    margin-right: -16px;
+}
+.tinyd{
+    width:460px;
+    height: 80px;
+    background-color: #000000;
+    border: 10px solid #2f1f00;
+    vertical-align: bottom;
+    font-size: 60px;
+}
 @keyframes rot {
     0%{transform: rotate(0deg);}
     100%{transform: rotate(360deg);}
+}
+@keyframes ref {
+    0%{transform: rotate(-65deg);}
+    4%{transform: rotate(-65deg);}
+    6%{transform: rotate(295deg);}
+    100%{transform: rotate(295deg);}
 }
 @keyframes sha {
     0%{transform: translate(480px);}
