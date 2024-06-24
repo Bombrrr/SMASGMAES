@@ -95,13 +95,14 @@ body{
 
 }
 .smalld{
+    cursor: pointer;
     display: inline-block;
     width:480px;
     height: 480px;
     background-color: #000000;
     border: 10px solid #664200;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 .tinyd{
     width:460px;
