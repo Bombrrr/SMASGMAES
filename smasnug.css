@@ -118,7 +118,7 @@ body{
     border: 10px #ffffff;
     border-top: #ffffff;
 }
-.gmae{width: 100vw; height: 100vw;}
+.gmae{width: 100vw; aspect-ratio: 16/9;}
 @keyframes rot {
     0%{transform: rotate(0deg);}
     100%{transform: rotate(360deg);}
