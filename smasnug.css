@@ -63,6 +63,7 @@ body{
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    border-radius: 6969px;
 }
 .rmov{transform: rotate(0.25deg);
     animation-name: sha;
@@ -117,6 +118,7 @@ body{
     border: 10px #ffffff;
     border-top: #ffffff;
 }
+.gmae{width: 100vw; height: 100vw;}
 @keyframes rot {
     0%{transform: rotate(0deg);}
     100%{transform: rotate(360deg);}
