@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBattles Images</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<style>.swiper {
+    width: 600px;
+    aspect-ratio: 16/9;
+  }
+  .swiper-slide {
+  background-color: #222222;
+  width: 80vw;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+}</style>
+</head>
+<body>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide" style="background-image: url(image/battle.png); background-size: cover;"></div>
+          <div class="swiper-slide" style="background-image: url(image/title.png); background-size: cover;"></div>
+          <div class="swiper-slide" style="background-image: url(image/wave1.png); background-size: cover;"></div>
+          <div class="swiper-slide" style="background-image: url(image/shoot.png); background-size: cover;"></div>
+          <div class="swiper-slide" style="background-image: url(image/laser.png); background-size: cover;"></div>
+          <div class="swiper-slide" style="background-image: url(image/boss.png); background-size: cover;"></div>
+          <div class="swiper-slide" style="background-image: url(image/explodboss.png); background-size: cover;"></div>
+        </div>
+      </div>   
+<script>const swiper = new Swiper(".swiper", {
+    // loop: true,
+    effect: "cards",
+    mousewheel: true,
+    autoplay: {
+      delay: 1000,
+      pauseOnMouseEnter: true
+    },
+    cardsEffect: {
+      perSlideRotate: 2.4,
+      perSlideOffset: 9.6,
+    },
+    grabCursor: true
+  });</script>
+</body>
+</html>
