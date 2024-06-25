@@ -50,6 +50,7 @@ body{
     animation-duration: 50s;
     animation-iteration-count: infinite;
     cursor: pointer;
+    border-radius: 6969px;
 }
 .x{
     background-color: black;
