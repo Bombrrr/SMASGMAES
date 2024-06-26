@@ -102,7 +102,6 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.bigd:hover{transform: scale(1.02);}
 .bigd{
     transition-duration: 400ms;
     width:auto;
@@ -115,7 +114,9 @@ body{
     vertical-align: middle;
 
 }
+.smalld:hover{transform:scaleX(1.05);}
 .smalld{
+    transition-duration: 300ms;
     cursor: pointer;
     display: inline-block;
     width:480px;
