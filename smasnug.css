@@ -3,7 +3,9 @@ body{
 	background-color:black;
     font-size: 30px;
 }
+.ld:hover{transform: scale(1.2);}
 .ld{
+    transition-duration: 400ms;
     background-color: black;
     border: 0px;
     color: #ffffff;
@@ -14,7 +16,9 @@ body{
     float: left;
     text-align: center;
 }
+.rd:hover{transform: scale(1.2);}
 .rd{
+    transition-duration: 400ms;
     background-color: black;
     border: 0px;
     color: #ffffff;
@@ -98,7 +102,9 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.bigd:hover{transform: scale(1.02);}
 .bigd{
+    transition-duration: 400ms;
     width:auto;
     height: 500px;
     background-color: #000000;
