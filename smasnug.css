@@ -102,6 +102,21 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+.textd{
+    transition-duration: 300ms;
+    cursor: pointer;
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    background-color: #000000;
+    border: 10px solid #664200;
+    vertical-align: middle;
+    margin-right: 10px;
+    overflow-y: auto;
+    text-wrap:wrap;
+    font-size: 15px;
+    text-align: center;
+}
 .bigd{
     transition-duration: 400ms;
     width:auto;
