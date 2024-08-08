@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="smasnug.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBattles Images</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<style>
+.im{background-color: #222222af; border-radius: 69px;padding: 9px; backdrop-filter: blur(4.20px);}
+.swiper:hover{transform: scale(1.2);}
+.swiper {
+    transition-duration: 900ms;
+    width: 800px;
+    aspect-ratio: 16/9;
+  }
+  .swiper-slide {
+  background-color: #222222;
+  width: 80vw;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+}</style>
+</head>
+<body>
+  <div class="ld" onclick="window.location.href = 'index.html';"><img width="75" height="75" src="image/home.svg">Home</div>
+  <div class="rd" onclick="window.location.href = 'thesmiles.html';"><img width="75" height="75" src="image/troller.svg">To Game</div>
+  <center>
+  <h1>Star Battles</h1>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">ThumbNale</p></div>
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">Menu Page</p></div>
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">Wave Starting</p></div>
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">Shooting Bullets</p></div>
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">Shooting Laser</p></div>
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">Boss Battle</p></div>
+          <div class="swiper-slide" style="background-image: url(image/soon.png); background-size: cover;"><p class="im">Boss Defeeted</p></div>
+        </div>
+      </div>   
+<script>const swiper = new Swiper(".swiper", {
+    effect: "cards",
+    mousewheel: true,
+    autoplay: {
+      delay: 3000,
+      pauseOnMouseEnter: true
+    },
+    cardsEffect: {
+      perSlideRotate: 2.4,
+      perSlideOffset: 9.6,
+    },
+    grabCursor: true
+  });</script>
+  <br><br>
+<div class="bigd2">
+  <div class="textd"><h1>What Is StarBattles?</h1><p> StarBattles is a game about a person named Fluke LandRunner who is flying a spaceship to destroy the DestructionStar. The Destructionstar is a part of the Fifth's plan to destroy the Bedeye. You have to navigate through ships and collect scrap parts to reach the DestructionStar. The DestructionStar has limited heat and if the laser is used too much it will explode. After the battle Fluke finds master Yoga and gets gifted a power called the Forth.</p></div>
+  <div class="textd"><h1>How Do I Play StarBattles?</h1><p>Move the cursor to aim and to control the ships location using: the mouse, or the arrow keys.<br /> To shoot at ships move the cursor toward the ship and either use your bullets: Left Click, Or space. Or use the laser: Middle Click, Or Shift.<br />You can block the DestructionStar Laser And ship bullets with the shield: Right Click, Or Control. </p></div>
+</div>
+</body>
+</html>
